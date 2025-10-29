@@ -13,7 +13,7 @@ public class Desafio {
 
         while (palpite != numeroAleatorio){
             if (count < 5){
-                System.out.println("Digite seu palpite: ");
+                System.out.print("Digite seu palpite: ");
                 palpite = input.nextInt();
                 count++;
 
